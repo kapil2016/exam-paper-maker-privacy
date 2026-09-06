@@ -1,0 +1,207 @@
+<!doctype html>
+<!--
+  Privacy policy for Exam Paper Maker (com.craftexampaper).
+
+  Published at https://kapil2016.github.io/exam-paper-maker-privacy/
+  from the repository checked out at ~/Desktop/ExamPaperMaker-privacy.
+
+  This file is the source of truth. To change the policy: edit it here, copy
+  it over index.html in that folder, commit and push. GitHub Pages rebuilds
+  within a minute.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Exam Paper Maker</title>
+<style>
+  :root {
+    --ink: #0f172a;
+    --muted: #475569;
+    --line: #e4e7ef;
+    --accent: #1d4ed8;
+    --paper: #ffffff;
+    --bg: #f6f7fb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 72px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 40px 36px;
+  }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 17px; margin: 34px 0 10px; padding-top: 20px;
+    border-top: 1px solid var(--line); letter-spacing: -0.005em;
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--muted); }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  strong { color: var(--ink); }
+  .updated { color: #94a3b8; font-size: 14px; margin-bottom: 4px; }
+  .lede { color: var(--ink); font-size: 17px; }
+  table { border-collapse: collapse; width: 100%; margin: 4px 0 14px; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--ink); font-weight: 600; width: 42%; }
+  td { color: var(--muted); }
+  a { color: var(--accent); }
+  .fill {
+    background: #fee2e2; color: #b91c1c; font-weight: 700;
+    padding: 1px 6px; border-radius: 4px; border: 1px dashed #b91c1c;
+  }
+  footer { max-width: 720px; margin: 20px auto 0; color: #94a3b8; font-size: 13px; text-align: center; }
+  @media (max-width: 560px) {
+    body { padding: 16px 12px 48px; }
+    main { padding: 26px 20px; border-radius: 10px; }
+    h1 { font-size: 24px; }
+    th { width: auto; }
+    table, tbody, tr, th, td { display: block; }
+    th { border-bottom: 0; padding-bottom: 0; }
+    td { padding-top: 2px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="updated">Last updated: 6 September 2026</p>
+  <h1>Privacy Policy</h1>
+  <p class="lede">
+    Exam Paper Maker is made by <span class="fill">appcraftstudio</span>.
+    This policy explains what the app does with your information. It is short,
+    because the app is built to need very little.
+  </p>
+
+  <h2>There is no account</h2>
+  <p>
+    The app has no sign-up and no login. We never ask for your name, your email
+    address, your phone number, your location or your contacts, and we have no
+    way to learn them. Nothing you do in the app is tied to your identity,
+    because we do not have it.
+  </p>
+
+  <h2>Photographs you ask the app to read</h2>
+  <p>
+    When you press <strong>Read</strong>, the photographs you selected are sent
+    over an encrypted connection to our server, which passes them to Google's
+    Gemini service. Gemini converts the questions in the picture into text and
+    sends the text back. That is the only thing the photograph is used for.
+  </p>
+  <ul>
+    <li>The photograph is <strong>not stored</strong> on our server, before or after reading.</li>
+    <li>It is <strong>not used to train</strong> any model.</li>
+    <li>Photographs you have <strong>not</strong> asked the app to read never leave your phone.</li>
+  </ul>
+  <p>
+    Google's handling of the image is governed by the
+    <a href="https://developers.google.com/terms">Google APIs Terms of Service</a>
+    and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+    Our server runs on Cloudflare Workers, so Cloudflare carries the traffic;
+    it is covered by the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>.
+  </p>
+
+  <h2>Your question papers stay on your phone</h2>
+  <p>
+    The papers you make, the questions in them, the school and class details you
+    type, and the PDFs you export are stored <strong>on your device only</strong>.
+    We cannot see them and they are never uploaded. Uninstalling the app deletes
+    them, so export anything you want to keep before you do.
+  </p>
+
+  <h2>What our server keeps</h2>
+  <p>Only what is needed to count the pages you have used and honour what you have bought.</p>
+  <table>
+    <tr>
+      <th>A random identifier</th>
+      <td>Created the first time you open the app. It is a random number, not
+          linked to you and not an advertising identifier. It is how the server
+          knows which balance is yours without knowing who you are.</td>
+    </tr>
+    <tr>
+      <th>Your page balance</th>
+      <td>How many pages you have left, and how many were free or bought.</td>
+    </tr>
+    <tr>
+      <th>A fingerprint of each page already read</th>
+      <td>A one-way hash of the image, so that reading the same photograph again
+          is never charged twice. It cannot be turned back into the picture, and
+          the picture itself is not kept.</td>
+    </tr>
+    <tr>
+      <th>Purchases</th>
+      <td>The order reference Google Play gives us, so a purchase can be
+          credited once and restored if you change phone.</td>
+    </tr>
+    <tr>
+      <th>Daily totals</th>
+      <td>How many pages the service read each day, across everybody. Just
+          numbers — nothing that points at a person.</td>
+    </tr>
+  </table>
+  <p>
+    <strong>We do not store your network address.</strong> When the app first
+    registers, your address is used to work out how many free pages to give and
+    is immediately turned into a one-way fingerprint that cannot be reversed
+    into an address. That fingerprint is deleted the following day.
+  </p>
+
+  <h2>Payments</h2>
+  <p>
+    Purchases are handled entirely by <strong>Google Play</strong>. We never see
+    your card number, your UPI ID or your billing address — only Google's
+    confirmation that a purchase happened, so we can add the pages. Refunds and
+    payment problems are handled by Google Play under
+    <a href="https://policies.google.com/privacy">its own privacy policy</a>.
+  </p>
+
+  <h2>Permissions the app asks for</h2>
+  <table>
+    <tr><th>Photos and media</th><td>To let you choose a picture of a question page you have already taken.</td></tr>
+    <tr><th>Camera</th><td>The app opens your phone's own camera app to take a picture. It does not hold a camera permission of its own and cannot use the camera on its own.</td></tr>
+    <tr><th>Internet</th><td>To send a page for reading, and to check your balance.</td></tr>
+  </table>
+
+  <h2>Children</h2>
+  <p>
+    The app is made for teachers and is not directed at children under 18. We do
+    not knowingly collect information from children.
+  </p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Delete everything on your phone</strong> — uninstall the app.</li>
+    <li><strong>Delete what our server holds</strong> — email us and we will
+        remove your identifier, your balance and your page fingerprints. Note
+        that this also removes any pages you have bought and not yet used.</li>
+    <li><strong>Ask what we hold</strong> — email us and we will tell you.</li>
+  </ul>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the date at the top of the page changes with it.
+    Material changes will also be mentioned in the app's release notes.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions, deletion requests, or anything else about this policy:<br>
+    <a href="mailto:craftconsole88@gmail.com">craftconsole88@gmail.com</a>
+  </p>
+
+</main>
+<footer>Exam Paper Maker · com.craftexampaper</footer>
+</body>
+</html>
