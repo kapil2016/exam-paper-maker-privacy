@@ -77,7 +77,7 @@
 <body>
 <main>
 
-  <p class="updated">Last updated: 6 September 2026</p>
+  <p class="updated">Last updated: 24 October 2026</p>
   <h1>Privacy Policy</h1>
   <p class="lede">
     Exam Paper Maker is made by <span class="fill">appcraftstudio</span>.
@@ -131,6 +131,14 @@
           knows which balance is yours without knowing who you are.</td>
     </tr>
     <tr>
+      <th>An install ID</th>
+      <td>A one-way hash (SHA-256) of the device identifier Android gives this
+          app. It lets the server give your own balance back after a reinstall
+          and stops the free pages being claimed over and over. It cannot be
+          turned back into that identifier and is not linked to your name,
+          email or Google account.</td>
+    </tr>
+    <tr>
       <th>Your page balance</th>
       <td>How many pages you have left, and how many were free or bought.</td>
     </tr>
@@ -144,6 +152,12 @@
       <th>Purchases</th>
       <td>The order reference Google Play gives us, so a purchase can be
           credited once and restored if you change phone.</td>
+    </tr>
+    <tr>
+      <th>Free pages from ads</th>
+      <td>For each free page earned by watching an ad: the transaction ID AdMob
+          gives the reward, the ad unit and the date, so a reward is added once
+          and the daily limit can be kept.</td>
     </tr>
     <tr>
       <th>Daily totals</th>
@@ -167,11 +181,38 @@
     <a href="https://policies.google.com/privacy">its own privacy policy</a>.
   </p>
 
+  <h2>Optional video ads for free pages</h2>
+  <p>
+    On the <strong>Pages</strong> screen you can choose to watch a short video ad
+    to earn a free page, a few times a day. Ads are shown only when you tap
+    <strong>Watch ad</strong>; the app shows no other ads.
+  </p>
+  <ul>
+    <li>The ads are provided by <strong>Google AdMob</strong>. When an ad is
+        requested and shown, the Google Mobile Ads SDK collects and sends to
+        Google information such as your device's <strong>advertising ID</strong>,
+        IP address, device model and operating system, ad interaction data (for
+        example, whether the ad was watched to the end) and approximate location
+        derived from your IP address. Google uses it to show and measure ads, to
+        prevent fraud and, where you allow it, to personalise ads — see
+        <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>.</li>
+    <li>So the free page reaches the right balance, the app passes your install
+        ID with the ad request, and AdMob sends it back to our server with a
+        transaction ID when you finish the ad. We do not receive your
+        advertising ID.</li>
+    <li>In the European Economic Area and the UK the app asks for your consent
+        before showing ads, and <strong>Settings → Privacy choices for ads</strong>
+        lets you change it. Anywhere, you can reset or delete your advertising
+        ID, or opt out of personalised ads, in your phone's Settings → Google →
+        Ads (or Settings → Privacy → Ads).</li>
+  </ul>
+
   <h2>Permissions the app asks for</h2>
   <table>
     <tr><th>Photos and media</th><td>To let you choose a picture of a question page you have already taken.</td></tr>
     <tr><th>Camera</th><td>The app opens your phone's own camera app to take a picture. It does not hold a camera permission of its own and cannot use the camera on its own.</td></tr>
-    <tr><th>Internet</th><td>To send a page for reading, and to check your balance.</td></tr>
+    <tr><th>Internet</th><td>To send a page for reading, to check your balance, and to show the optional ads.</td></tr>
+    <tr><th>Advertising ID</th><td>Used by Google AdMob for the optional video ads, as described above.</td></tr>
   </table>
 
   <h2>Children</h2>
@@ -182,6 +223,7 @@
 
   <h2>Your choices</h2>
   <ul>
+    <li><strong>Don't watch ads</strong> — they are only shown when you tap Watch ad.</li>
     <li><strong>Delete everything on your phone</strong> — uninstall the app.</li>
     <li><strong>Delete what our server holds</strong> — email us and we will
         remove your identifier, your balance and your page fingerprints. Note
